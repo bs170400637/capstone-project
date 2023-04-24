@@ -25,3 +25,15 @@ Deployed website is temporarily unavailable to access while the website is under
   - python3 manage.py makemigrations
   - python3 manage.py migrate
   - python3 manage.py runserver
+  - 
+### Password and access:
+admin = {
+    'username': root,
+    'password': admin,
+}
+
+'restaurant/api-token-auth/'
+'restaurant/menu/<int:pk>/'
+'restaurant/menu/'
+'restaurant/'
+'restaurant/booking/tables'
